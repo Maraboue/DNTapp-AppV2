@@ -37,6 +37,15 @@
 
 .CommunityItem h2{
     color: #476098;
+    padding-top: 20px;
+}
+
+.CommunityItem ul {
+    color: #11d811;
+    padding-top: 20px;
+    letter-spacing: 3px;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .CommunityItem:hover {

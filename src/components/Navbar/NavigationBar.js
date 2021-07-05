@@ -6,7 +6,7 @@ import {HeroBg, VideoBg} from "../HeroSection/HeroElements";
 import video1 from "../../videos/video1.mp4";
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 
-class NavigationBar extends React.Component{
+class NavigationBar extends Component{
     render() {
 
         return(
