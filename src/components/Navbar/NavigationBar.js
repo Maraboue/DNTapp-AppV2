@@ -19,10 +19,16 @@ class NavigationBar extends Component{
                 <div className="Menu">
                 </div>
                 <ul className="nav-items">
-                    <Link className="nav-links" to="tokenomics" smooth={true} duration={1000}>Tokenomics</Link>
-                    <Link className="nav-links" to="about" smooth={true} duration={1000}>About</Link>
-                    <Link className="nav-links" to="team" smooth={true} duration={1000}>Team</Link>
-                    <Link className="nav-links" to="roadmap" smooth={true} duration={1000}>Road Map</Link>
+                    {items.map((item, index) => {
+                        return(
+                            <li key={index}>
+                                <Link className={item.name} to={item.url} smooth={true} duration={1000}>
+                                    {item.title}
+                                </Link>
+                            </li>
+                        )
+
+                    })}
                     <NavDropdown className="nav-links" title="Docs" id="collapsible-nav-dropdown">
                         <NavDropdown.Item id="DropItem" className="nav-links" to="about" smooth={true} duration={1000}>Whitepaper</NavDropdown.Item>
                         <NavDropdown.Divider id="NavDropdown.Divider"></NavDropdown.Divider>
