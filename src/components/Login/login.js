@@ -38,7 +38,7 @@ function Login ()  {
                 </div>
                 <div className="LoginItem" data-aos="slide-up">
                 <HeroBg>
-                    <VideoBg autoPlay loop muted src={video3} type='video/mp4'/>
+                    <VideoBg id="video" autoPlay loop muted src={video3} type='video/mp4'/>
                 </HeroBg>
             </div>
             </div>
@@ -50,7 +50,7 @@ function Login ()  {
 
                 <div className="LoginItem">
                 <div id="LoginText">
-                   <h1> Welcome Wallet User:</h1> <p>{user.get("ethAddress")} </p><br/>
+                   <h1> Welcome Wallet User:</h1> <p className="wallet-user">{user.get("ethAddress")} </p><br/>
                    <p>
                     If you have completed the four steps you are now eligible for the airdrop.
                     <br/> If you have any questions, feel free to email us at: support@dynamicnetwork.com</p>

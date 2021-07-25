@@ -1,10 +1,10 @@
 .roadStopContainer{
     position: relative;
     display: flex;
-    justify-content: center;
     align-items: center;
     background: ghostwhite;
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .roadmapHeader {
@@ -86,7 +86,7 @@
 
 
 .roadStop .content h2 {
-    font-family: "Arial Rounded MT Bold";
+    font-family: monospace;
     opacity: 0;
     position: absolute;
     right: 10em;

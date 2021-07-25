@@ -25,10 +25,12 @@
 }
 
 .TeamInfo h1 {
-    padding-top: 10px;
+    padding-top: 20px;
+    font-size: 2em;
     color: #476098;
     font-weight: bold;
     padding-bottom: 15px;
+    font-family: monospace;
 }
 
 
@@ -78,7 +80,7 @@
 }
 
 .card h3{
-    font-family: "Segoe UI Emoji";
+    font-family: monospace;
     color: #476098;
     font-weight: bold;
     font-size: 1.5em;

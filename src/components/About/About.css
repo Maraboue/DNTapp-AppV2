@@ -76,7 +76,7 @@
 .AboutItem h1{
     margin-top: -175px;
     padding-bottom: 20px;
-    font-family: "Segoe UI Emoji";
+    font-family: monospace;
     font-size: 2em;
     font-weight: bold;
     color: #476098;
