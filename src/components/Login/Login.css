@@ -5,19 +5,26 @@
     grid-gap: 10px;
     padding: 10px;
     box-sizing: border-box;
+
+
 }
 
 .LoginItem {
 
     width: 100%;
     box-sizing: border-box;
+}
+
+.LoginItem2 {
+
+    width: 100%;
 
 }
 
 #LoginText:hover{
 
     background: linear-gradient(transparent,#e6f3ff, mintcream);
-
+    box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 20px #2196f3 ;
 
 }
 

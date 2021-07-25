@@ -37,9 +37,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: whitesmoke;
+    background: ghostwhite;
     box-sizing: border-box;
-
+    margin-right: 20px;
 }
 .card{
     padding-bottom: 50px;
@@ -59,7 +59,7 @@
 .card:hover{
     background: linear-gradient(transparent,#e6f3ff, mintcream);
     color: black;
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 40px #2196f3 ;
+    box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 20px #2196f3 ;
 }
 
 .card p:hover {

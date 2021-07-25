@@ -2,9 +2,10 @@ import './About.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, {Component} from "react";
+import video2 from "../../videos/video3.mp4";
+import {VideoBg} from "../HeroSection/HeroElements";
 
-AOS.init( {duration:3000,
-    delay:50});
+
 
 
 class About extends Component {
@@ -15,8 +16,10 @@ class About extends Component {
             <section className="about_section" id="about">
                 <body>
                 <div id="AboutHeader" className="AboutHeader">
-                    <h1 className="gradient-text">About the Dynamic Network</h1>
+                    <h1 className="gradient-text">About the DNT Token</h1>
                 </div>
+
+
                 <div id="AboutContainer1" className="AboutContainer1" >
                     <div id="AboutItem" className="AboutItem" data-aos="fade-right">
                         <div id="Background" className="Background" data-aos="fade-right">
@@ -110,22 +113,19 @@ class About extends Component {
                     <div id="AboutItem" className="AboutItem" data-aos="fade-left">
 
                         <h1>Vision</h1>
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout.
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                            as opposed to using 'Content here, content here',
-                            making it look like readable English. Many desktop publishing packages and web page editors
-                            now use Lorem Ipsum as their default model text,
-                            and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy. <br/><br/>
-                            Various versions have evolved over the years, sometimes by accident,
-                            sometimes on purpose (injected humour and the like).The point of using Lorem Ipsum is that
-                            it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-                            content here',
-                            making it look like readable English.<br/><br/> Many desktop publishing packages and web
-                            page editors now use Lorem Ipsum as their default model text,
-                            and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy. <br/><br/>Various versions have evolved over the years, sometimes by accident,
+                        <p> Looking forward, we are excited to see how the community will grow and how we together can
+                            build a future were a crypto can act as both a store of value while also providing a good
+                            way of transacting.
+                            <br/><br/>
+                            Over time, our vision lies in the hands of the Dynamic Network community. We are eager to see
+                            what kind of experiences the users in the network has to tell, and how we from these experiences can
+                            continue to build the Dynamic Network to be even better.
+                            <br/><br/>
+                            Nothing in this world is completely perfect. Therefore we believe in a continuous journey for the Dynamic Network.
+                            This journey we believe will be filled with new tasks and a never ending strive towards becoming better. This will,
+                            as been stated, come from within the community itself.
+
+                            <br/><br/>Various versions have evolved over the years, sometimes by accident,
                             sometimes on purpose (injected humour and the like). It is a long established fact that a
                             reader will be distracted by the readable content of a page when looking at its layout.
                             The point of using Lorem Ipsum is that it has a more-or-less normal distribution Various
@@ -134,6 +134,7 @@ class About extends Component {
 
 
                 </div>
+
                 </body>
             </section>
         )

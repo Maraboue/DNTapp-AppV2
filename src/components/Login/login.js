@@ -2,7 +2,7 @@ import React from 'react';
 import { useMoralis } from "react-moralis";
 import './Login.css'
 import {HeroBg, HeroContainer, VideoBg} from "../HeroSection/HeroElements";
-import video2 from "../../videos/video2.mp4";
+import video3 from "../../videos/video3.mp4";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -38,7 +38,7 @@ function Login ()  {
                 </div>
                 <div className="LoginItem" data-aos="slide-up">
                 <HeroBg>
-                    <VideoBg autoPlay loop muted src={video2} type='video/mp4'/>
+                    <VideoBg autoPlay loop muted src={video3} type='video/mp4'/>
                 </HeroBg>
             </div>
             </div>
@@ -63,7 +63,7 @@ function Login ()  {
                 </div>
                 <div className="LoginItem">
                 <HeroBg>
-                    <VideoBg autoPlay loop muted src={video2} type='video/mp4'/>
+                    <VideoBg autoPlay loop muted src={video3} type='video/mp4'/>
                 </HeroBg>
                 </div>
 

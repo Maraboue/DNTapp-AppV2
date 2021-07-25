@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: whitesmoke;
+    background: ghostwhite;
 
 }
 
@@ -58,6 +58,7 @@
 
 .roadStop:hover{
     background: linear-gradient(transparent,#e6f3ff, mintcream);
+    box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 20px #2196f3 ;
 }
 
 

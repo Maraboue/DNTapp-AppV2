@@ -14,12 +14,13 @@
     display: grid;
     position: relative;
     grid-template-columns: auto auto auto;
+    align-items: center;
 
 }
 
 .CommunityItem {
 
-    position:relative;
+    position: relative;
     width: 75%;
     height:200px;
     padding-left: 35px;
@@ -32,6 +33,18 @@
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
+
+}
+
+ #background-video{
+
+    height: 100%;
+    width: 100%;
+    float: left;
+    top: 0;
+    padding: 0;
+    position: fixed;
+
 
 }
 

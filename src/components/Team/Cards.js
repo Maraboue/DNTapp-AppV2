@@ -1,7 +1,6 @@
 import React, {Component, useEffect,useRef} from 'react';
 import VanillaTilt from 'vanilla-tilt';
 import './Card.css'
-import ParticleBackground from "../Misc/ParticleBackground";
 import graph from "../../pictures/IMG_3699.PNG";
 
 function Tilt(props) {
@@ -38,7 +37,7 @@ class Cards extends React.Component {
                     </div>
 
                     <Tilt div id="card" className="card">
-                        <h2>Project Lead</h2>
+                        <h2>Project Lead & Developer</h2>
                         <img src={graph} alt="loading..." />
 
                         <h3>Gustaf Sjölinder</h3>
@@ -61,7 +60,7 @@ class Cards extends React.Component {
                         <a href ="#">Read More</a>
                     </Tilt>
                     <Tilt div id="card" className="card">
-                        <h2>Dev & Advisor</h2>
+                        <h2>Developer & Advisor</h2>
                         <img src={graph} alt="loading..." />
                         <h3>Carl-Bernhard Hallberg</h3>
 

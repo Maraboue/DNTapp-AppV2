@@ -1,7 +1,6 @@
 import './App.css';
 
 import React, {Component, useEffect, useRef} from 'react';
-import HeroSection from "./components/HeroSection";
 import NavigationBar from "./components/Navbar/NavigationBar";
 import Cards from './components/Team/Cards';
 import Tokenomics from "./components/Tokenomics/Tokenomics";
@@ -11,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Login from "./components/Login/login";
 import Community from "./components/Community/Community";
+
 
     class App extends React.Component {
 
@@ -25,6 +25,7 @@ import Community from "./components/Community/Community";
                             <NavigationBar/>
                         </div>
                         <body>
+
                         <div id="Header" className="HeaderSection" data-aos="fade">
                             <Header/>
                         </div>

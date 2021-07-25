@@ -13,7 +13,7 @@ CanvasJS.addColorSet("gradient",
     [//colorSet Array
 
         "#18a5f1",
-        "#008080",
+        "#1182f9",
         "#476098",
         "#163968",
         "#61dafb"
@@ -54,11 +54,11 @@ class PieChart extends Component {
                 indexLabelFontSize: 20,
                 indexLabel: "{label} - {y}%",
                 dataPoints: [
-                    { y: 18, label: "Team" },
-                    { y: 49, label: "Public Sale" },
-                    { y: 9, label: "Marketing" },
+                    { y: 15, label: "Team" },
+                    { y: 45, label: "Public Sale" },
+                    { y: 15, label: "Marketing" },
                     { y: 5, label: "Referral" },
-                    { y: 19, label: "Reserve" }
+                    { y: 25, label: "Reserve" }
                 ]
             }]
 
