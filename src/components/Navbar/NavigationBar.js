@@ -36,7 +36,7 @@ class NavigationBar extends Component{
                         <NavDropdown.Divider></NavDropdown.Divider>
                         <NavDropdown.Item id="DropItem" className="nav-links" href="https://docs.google.com/document/d/1JGdcARLhOjXBEiQi_Wouis79YNzDebjNus4H8shoEJU/edit">Något mer</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item id="DropItem" className="nav-links" href="#action/3.4">yolo</NavDropdown.Item>
+                        <NavDropdown.Item id="DropItem" className="nav-links" href="Community">DNT Stats</NavDropdown.Item>
                     </NavDropdown>
                 </ul>
             </nav>
