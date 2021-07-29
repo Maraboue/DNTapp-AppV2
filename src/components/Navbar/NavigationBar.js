@@ -34,9 +34,11 @@ class NavigationBar extends Component{
                         <NavDropdown.Divider id="NavDropdown.Divider"></NavDropdown.Divider>
                         <NavDropdown.Item id="DropItem" className="nav-links" href="https://github.com/Maraboue">Github</NavDropdown.Item>
                         <NavDropdown.Divider></NavDropdown.Divider>
-                        <NavDropdown.Item id="DropItem" className="nav-links" href="https://docs.google.com/document/d/1JGdcARLhOjXBEiQi_Wouis79YNzDebjNus4H8shoEJU/edit">Något mer</NavDropdown.Item>
+                        <NavDropdown.Item id="DropItem" className="nav-links" href="https://docs.google.com/document/d/1PnlvT0UaUZ-whGDdCQxVHIDpWTdLBVGWA_aXIQSEHC8/edit">Research & Results</NavDropdown.Item>
                         <NavDropdown.Divider />
-                        <NavDropdown.Item id="DropItem" className="nav-links" href="Community">DNT Stats</NavDropdown.Item>
+                        <NavDropdown.Item id="DropItem" className="nav-links" href="https://discord.gg/KHd93nfG">Discord</NavDropdown.Item>
+                        <NavDropdown.Divider />
+                        <NavDropdown.Item id="DropItem" className="nav-links" href="https://www.coingecko.com/en/coins/chainlink">Buy DNT</NavDropdown.Item>
                     </NavDropdown>
                 </ul>
             </nav>

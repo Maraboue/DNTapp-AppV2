@@ -9,6 +9,9 @@ export const Box = styled.div`
   @media (max-width: 1000px) {
     padding: 70px 30px;
   }
+  
+  
+  
 `;
 
 export const Container = styled.div`
@@ -20,13 +23,16 @@ export const Container = styled.div`
     background: transparent; */
     border-radius: 50px;
     padding-top: 10px;
-`
+    
+    
+`;
 
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
   text-align: left;
   margin-left: 60px;
+  
 `;
 
 export const Row = styled.div`
@@ -39,11 +45,12 @@ export const Row = styled.div`
     grid-template-columns: repeat(auto-fill, 
                            minmax(200px, 1fr));
   }
+  
 `;
 
 export const FooterLink = styled.a`
   color: #008fb3;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
   font-size: 1.5em;
   text-decoration: none;
   font-family: arial;
@@ -58,4 +65,5 @@ export const Heading = styled.p`
   color: #008fb3;
   margin-bottom: 40px;
   font-weight: bold;
+  
 `;

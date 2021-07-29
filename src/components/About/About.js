@@ -1,9 +1,6 @@
 import './About.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import React, {Component} from "react";
-import video2 from "../../videos/video3.mp4";
-import {VideoBg} from "../HeroSection/HeroElements";
+
 
 
 
@@ -16,13 +13,13 @@ class About extends Component {
             <section className="about_section" id="about">
                 <body>
                 <div id="AboutHeader" className="AboutHeader">
-                    <h1 className="gradient-text">About the DNT Token</h1>
+                    <h1 className="gradient-text">About DNT</h1>
                 </div>
 
 
                 <div id="AboutContainer1" className="AboutContainer1" >
-                    <div id="AboutItem" className="AboutItem" data-aos="fade-right">
-                        <div id="Background" className="Background" data-aos="fade-right">
+                    <div id="AboutItem" className="AboutItem">
+                        <div id="Background" className="Background">
 
                         <h1>Background</h1>
                         <p>
@@ -53,38 +50,33 @@ class About extends Component {
                         </p>
                         </div>
                         </div>
-                    <div id="AboutItem" className="AboutItem" data-aos="fade-left">
+                    <div id="AboutItem" className="AboutItem">
 
                         <h1>Research</h1>
                         <p>
                             Behind the Dynamic Network Token lies a lot of research. We thought that by using machine
                             learning and linear regression, a fairly good prediction
                             of price behaviour could be obtained.<br/><br/>
-                            It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout.
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                            as opposed to using 'Content here, content here',
-                            making it look like readable English. Many desktop publishing packages and web page editors
-                            now use Lorem Ipsum as their default model text,
-                            and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy. <br/><br/>
-                            Various versions have evolved over the years, sometimes by accident,
-                            sometimes on purpose (injected humour and the like).It is a long established fact that a
-                            reader will be distracted by the readable content of a page when looking at its layout.
-                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
-                            as opposed to using 'Content here, content here',
-                            making it look like readable English. Many desktop publishing packages and web page editors
-                            now use Lorem Ipsum as their default model text,
-                            and a search for 'lorem ipsum' will uncover many web sites still in their
-                            infancy. <br/><br/>
-                            Various versions have evolved over the years, sometim Various versions have evolved over the
-                            years, sometim
+                            Starting of with creating a price simulation program, using the simple parameters of price,
+                            market cap and total supply, a study could be conducted which showed that our implementations
+                            actually reduced the volatility in the Dynamic Network Token.
+                           <br/><br/>
+                            A simple monetary theory which has been around for several hundreds of years is the QTM or
+                            Quantitative Theory of Money. This theory state that the supply is the governing factor driving the
+                            price of any asset in a society. With this in mind, we decided to make use of the concepts of
+                            burning and minting to govern the volatility in the Dynamic Network Token. By implementing this
+                            functionality dynamically, i.e. when ever a buy or sell occurs, our belief is that we
+                            can reduce the volatility and thus provide a more stable and safe investment.
+                            <br/><br/>
+                            We also believe in scarcity and that deflationary properties play a crucial roll in any sound
+                            investment asset for the long term. Therefore, the implemented burning and minting should be
+                            in favor for the burning and the reduction of the total supply of the token.
                         </p></div>
 
                 </div>
                 <div id="AboutContainer2" className="AboutContainer2">
 
-                    <div id="AboutItem" className="AboutItem" data-aos="fade-right">
+                    <div id="AboutItem" className="AboutItem">
 
                         <h1>Results</h1>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a
@@ -110,7 +102,7 @@ class About extends Component {
                             Various versions have evolved over the years, sometim Various versions
 
                             .</p></div>
-                    <div id="AboutItem" className="AboutItem" data-aos="fade-left">
+                    <div id="AboutItem" className="AboutItem">
 
                         <h1>Vision</h1>
                         <p> Looking forward, we are excited to see how the community will grow and how we together can

@@ -29,28 +29,29 @@ import Community from "./components/Community/Community";
                         <div id="Header" className="HeaderSection" data-aos="fade">
                             <Header/>
                         </div>
-                            <div id="HeroSection" className="HeroSection" data-aos="fade-up">
+                            <div id="HeroSection" className="HeroSection" data-aos="fade-up"
+                                 data-aos-duration="4000">
                                 <Login/>
                             </div>
-                            <div id="Tokenomics-info" className="Tokenomics-info" data-aos="fade-right"
+                            <div id="Tokenomics-info" className="Tokenomics-info" data-aos="fade-up"
                                  data-aos-duration="4000">
                                 <Tokenomics/>
                             </div>
-                            <div className="AboutSection" data-aos="fade-left"
+                            <div className="AboutSection" data-aos="fade-up"
                                  data-aos-duration="4000">
                                 <About/>
                             </div>
-                            <div className="team-cards" data-aos="fade-right"
+                            <div className="team-cards" data-aos="fade-up"
                                  data-aos-duration="4000">
                                 <Cards/>
                             </div>
 
-                            <div className="RoadMap" data-aos="fade-left"
+                            <div className="RoadMap" data-aos="fade-up"
                                  data-aos-duration="4000">
                                 <RoadMap/>
                             </div>
 
-                             <div className="Community" data-aos="fade-right"
+                             <div className="Community" data-aos="fade-up"
                                 data-aos-duration="4000">
                                 <Community/>
                              </div>

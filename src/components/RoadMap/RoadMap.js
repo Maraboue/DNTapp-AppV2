@@ -20,7 +20,8 @@ class RoadMap extends Component {
                 <h1>Q2 2021</h1>
                 <h2>Launch of DNT</h2>
                 <p>
-                    Launch of the Dynamic Network Token.
+                    Launch of the Dynamic Network Token.<br/><br/>
+                    <strong>Including:</strong> IDO, AirDrop and Marketing.
                     </p>
                     </div>
                 </div>
@@ -30,7 +31,8 @@ class RoadMap extends Component {
                             <h1>Q3 2021</h1>
                             <h2>Community Network</h2>
                             <p>
-                                Building the networks community.
+                                Building the Networks Community.<br/><br/>
+                                <strong>Including:</strong> User Growth, Whitepaper and Patching.
                             </p>
                         </div>
                     </div>
@@ -40,7 +42,8 @@ class RoadMap extends Component {
                             <h1>Q4 2021</h1>
                             <h2>Partnerships</h2>
                             <p>
-                                Establish new <br/> partnerships & colaborations.
+                                Establish New <br/> Partnerships & Collaborations.<br/><br/>
+                                <strong>Including:</strong> Listings, Integration and Marketing.
                             </p>
                         </div>
                     </div>
@@ -51,7 +54,8 @@ class RoadMap extends Component {
                             <h1>Q1 2022</h1>
                             <h2>Response from community</h2>
                             <p>
-                                Listen to community <br/> for requests for improvements.
+                                Listen to Community <br/> for Requests for Improvements.<br/><br/>
+                                <strong>Including:</strong> Q&A, Evaluate Response and Research.
                             </p>
                         </div>
                     </div>

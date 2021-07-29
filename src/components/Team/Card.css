@@ -14,12 +14,12 @@
     border-top: 1px solid rgba(255,255,255,0.5);
     border-left: 1px solid rgba(255,255,255,0.5);
     backdrop-filter: blur(5px);
-
+    font-size: 1.2em;
 }
 
 .TeamInfo:hover
 {
-    background: linear-gradient(transparent,#e6f3ff, mintcream);
+    background: linear-gradient(transparent,#e6f3ff, whitesmoke);
     color: black;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 40px #2196f3 ;
 }
@@ -31,6 +31,15 @@
     font-weight: bold;
     padding-bottom: 15px;
     font-family: monospace;
+}
+
+.TeamInfo  p {
+
+    font-size: large;
+    font-weight: inherit;
+    letter-spacing: 1px;
+    font-family: "Calibri Light";
+
 }
 
 
@@ -59,7 +68,7 @@
 }
 
 .card:hover{
-    background: linear-gradient(transparent,#e6f3ff, mintcream);
+    background: linear-gradient(transparent,#e6f3ff, whitesmoke);
     color: black;
     box-shadow: 0 0 10px #2196f3, 0 0 20px #2196f3, 0 0 20px #2196f3 ;
 }
@@ -79,34 +88,44 @@
 
 }
 
+
+
 .card h3{
     font-family: monospace;
     color: #476098;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.8em;
     z-index: -1;
     padding-top: 20px;
 }
 
 .card p{
+
     padding-top: 35px;
+    margin-right: 20px;
+    margin-left: 20px;
     opacity: 0;
     transition: 0.5s;
     transform: translateY(100px);
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-family: "Calibri Light";
+
 }
 
-.card a {
-    position: absolute;
-    display: inline-block;
-    padding: 8px 20px;
-    background: #61dafb;
-    color: black;
-    border-radius: 20px;
-    text-decoration: none;
-    opacity: 0;
-    transition: 0.5s;
-    transform: translateY(100px);
+.card a img {
+    display: inline-grid;
+    margin-top: -20px;
+    margin-right: 20px;
+
+}
+
+.card a img:hover{
+    padding-top: 1px;
+    padding-bottom: -50px;
+    box-shadow: 0 0 5px #2196f3, 0 0 10px #2196f3, 0 0 10px #2196f3 ;
+
 }
 
 .card img {

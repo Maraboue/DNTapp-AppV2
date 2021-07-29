@@ -9,24 +9,24 @@ import 'aos/dist/aos.css';
 AOS.init( {duration:3000,
 delay:50});
 
+
 function Login ()  {
 
     const { authenticate, isAuthenticated, user } = useMoralis();
     const { logout, isAuthenticating } = useMoralis();
 
 
-
     if (!isAuthenticated) {
         return (
             <div className="LoginContainer" >
-                <div className="LoginItem" data-aos="slide-up">
+                <div className="LoginItem">
                     <div id="LoginText">
                     <h1>DNT AirDrop</h1>
                     <p>
                         We believe that the best communities are built by its users.
                         Therefore we want to reward our users for helping us grow the community.
                         To be eligible for the air drop, you have to complete the following steps:<br/><br/>
-                        1. Follow us on Facebook and Twitter.<br/><br/>
+                        1. Follow us on <u>Facebook</u> and <u>Twitter.</u><br/><br/>
                         2. Re-tweet the pinned post on our Twitter page.<br/><br/>
                         3. Send us an email at: Support@DynamicNetwork.com with your address and twitter user and then authenticate with Web3 below.<br/><br/>
                         4. If you have followed all the steps above, you are done!
@@ -36,7 +36,7 @@ function Login ()  {
             </div>
                     </div>
                 </div>
-                <div className="LoginItem" data-aos="slide-up">
+                <div className="LoginItem">
                 <HeroBg>
                     <VideoBg id="video" autoPlay loop muted src={video3} type='video/mp4'/>
                 </HeroBg>
@@ -50,7 +50,7 @@ function Login ()  {
 
                 <div className="LoginItem">
                 <div id="LoginText">
-                   <h1> Welcome Wallet User:</h1> <p className="wallet-user">{user.get("ethAddress")} </p><br/>
+                   <h1> Welcome Wallet User:</h1> <p className="wallet-user"><strong>{user.get("ethAddress")}</strong></p><br/>
                    <p>
                     If you have completed the four steps you are now eligible for the airdrop.
                     <br/> If you have any questions, feel free to email us at: support@dynamicnetwork.com</p>

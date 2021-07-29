@@ -57,7 +57,6 @@ class PieChart extends Component {
                     { y: 15, label: "Team" },
                     { y: 45, label: "Public Sale" },
                     { y: 15, label: "Marketing" },
-                    { y: 5, label: "Referral" },
                     { y: 25, label: "Reserve" }
                 ]
             }]
